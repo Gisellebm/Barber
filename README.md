@@ -6,16 +6,17 @@
 ### Projeto de uma Landing Page de uma Barbearia
 
 Projeto desenvolvido aplicando os conceitos de animações, transições entre outros:
-- Mobile First
+- Mobile
 - Unidade de medida flexível
-- Variáveis CSS
+- Estilização utilizando SCSS
 - Font customizada
 - Aplicando animações e transições simples usando as keyframes.
+- Aplicando animações e transições usando a biblioteca AOS -> Animate On Scroll
 
 
 <br/>
 
-  ![preview]()
+  ![preview](./assets/Barber.png)
   ![preview]()
 
 

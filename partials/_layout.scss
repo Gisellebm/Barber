@@ -149,3 +149,171 @@
 }
 
 // -------------------------------------
+
+
+// SERVICES-----------------------------
+
+.services{
+    background-color: $white-normal;
+    color: $black-normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 14px;
+}
+
+.services-content{
+    h2{
+        font-size: 38px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    p{
+        line-height: 150%;
+        text-align: center;
+        margin-bottom: 44px;
+        max-width: 780px;
+    }
+}
+
+.haircuts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 0 44px 34px;
+}
+
+.haircut{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: $white-normal;
+    border-radius: 8px;
+    box-shadow: 0 -1px 17px -4px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        max-width: 354px;
+        transition: transform 0.2s;
+    }
+}
+
+.haircut:hover img{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.haircut-info{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    background-color: $white-normal;
+    z-index: 99;
+
+    strong{
+        font-size: 18px;
+    }
+
+    button{
+        background-color: $red-normal;
+        color: $white-normal;
+        font-size: 14px;
+        line-height: 150%;
+        border: 0;
+        border-radius: 8px;
+        padding: 7px 19px;
+        cursor: default;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .haircuts{
+        flex-direction: column;
+    }
+}
+
+// -------------------------------------
+
+// FOOTER-------------------------------
+
+footer{
+    background-color: $black-normal;
+    color: $white-normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0 28px;
+    gap: 24px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 8px;
+    color: $white-normal;
+}
+
+.footer-logo img{
+    max-width: 166px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+// -------------------------------------
+
+// MEDIA QUERIES----------------------
+
+.btn-whatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+
+    img{
+        max-width: 74px;
+        transition: transform 0.4s;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+.btn-whatsapp .tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -128px;
+    background-color: $black-normal;
+    color: $white-normal;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .tooltip-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+    .btn-whatsapp{
+        max-width: 64px;
+        right: 12px;
+        bottom: 58px;
+    }
+    
+}
