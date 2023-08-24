@@ -8,16 +8,16 @@
 Projeto desenvolvido aplicando os conceitos de animações, transições entre outros:
 - Mobile
 - Unidade de medida flexível
-- Estilização utilizando SCSS
+- Estilização utilizando SASS
 - Font customizada
 - Aplicando animações e transições simples usando as keyframes.
 - Aplicando animações e transições usando a biblioteca AOS -> Animate On Scroll
+- Fazendo o Deploy utilizando o VERCEL.
 
 
 <br/>
 
   ![preview](./assets/Barber.png)
-  ![preview]()
 
 
 ## 🚀 Tecnologias
@@ -28,6 +28,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - SASS
 - Git e Github
+
+<br/>
+
+## Deploy
+
+<a href="https://barber-six-mu.vercel.app/" target="_blank">Clica aqui para visualizar o projeto</a>
 
 <br/>
 
